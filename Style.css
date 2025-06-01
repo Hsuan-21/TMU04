@@ -1,0 +1,22 @@
+body {
+  font-family: "Microsoft JhengHei", sans-serif;
+  padding: 20px;
+  background-color: #f8f8ff;
+}
+
+h1 {
+  color: #444;
+}
+
+button {
+  padding: 10px 16px;
+  margin-top: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
