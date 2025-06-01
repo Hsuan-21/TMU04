@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>猜水果單字遊戲</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>猜水果單字遊戲</h1>
+  <div id="questionList"></div>
+  <div id="gameArea" style="display:none;">
+    <p id="hint"></p>
+    <p id="progress"></p>
+    <input id="inputLetter" placeholder="輸入字母或單字">
+    <button onclick="makeGuess()">猜！</button>
+    <p id="message"></p>
+  </div>
+  <button id="restartBtn" style="display:none;" onclick="restart()">再玩一次</button>
+  <script src="script.js"></script>
+</body>
+</html>
